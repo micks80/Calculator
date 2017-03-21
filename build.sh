@@ -1,7 +1,5 @@
 #!/bin/bash
 
 echo "Build script"
-pwd
-ls -ltr /var/lib/jenkins
-cat /var/lib/jenkins/config.xml
+sleep 2
 echo "Bye"
