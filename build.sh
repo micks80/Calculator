@@ -1,5 +1,10 @@
 #!/bin/bash
 
 echo "Build script"
-sleep 5
+pwd
+ls -ltr /var/lib/jenkins
+cat /var/lib/jenkins/config.xml
+sudo su
+whoami
+pwd
 echo "Bye"
